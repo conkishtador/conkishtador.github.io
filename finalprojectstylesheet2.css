@@ -26,6 +26,10 @@ nav.fixednav {
 	padding-right: 10px;
 	background-color: #222;
 }
+
+nav.fixednav > h1:hover {
+	color:#FF432E;
+}
 nav.fixednav > h2 > a{
 	text-decoration: none;
 	color:#FFF;
@@ -115,3 +119,13 @@ div.social *:after {
 .clearit {
 	clear: both;
 }
+div#mainpic div.owl-buttons div {
+    background-color: #000;
+    opacity: 1;
+    font-family: 'Bungee Hairline', bold !important;
+}
+div#mainpic div.owl-buttons div:hover{
+    background-color: #FF432E;
+    opacity: 1;
+}
+
