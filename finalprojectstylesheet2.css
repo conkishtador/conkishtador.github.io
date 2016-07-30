@@ -72,15 +72,14 @@ img#rickshaw {
 	width:670px;
 	height:401px;
 }
-img#ezra {
+/*img#ezra {
 	width:670px;
 	height:401px;
-}
+} */
 img#oldies {
 	width:670px;
 	height:401px;
 }
-
 div.maintextblock {
 	width: 40%;
 	padding-top: 0px;
@@ -116,10 +115,14 @@ div.social *:after {
 .clearit {
 	clear: both;
 }
+div.owl-page span{
+	background-color: #000 !important;
+	opacity: 1;
+}
 div#mainpic div.owl-buttons div {
     background-color: #000;
     opacity: 1;
-    font-family: 'Bungee Hairline', bold !important;
+    font-family: 'Bungee Inline', bold !important;
 }
 div#mainpic div.owl-buttons div:hover{
     background-color: #FF432E;
