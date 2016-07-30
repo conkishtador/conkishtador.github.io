@@ -31,7 +31,7 @@ nav.fixednav > h2 > a{
 	color:#FFF;
 }
 nav.fixednav > h2 > a:hover {
-	color:#FF432E ;
+	color:#FF432E;
 }
 main {
 	margin-top: 50px;
@@ -114,7 +114,4 @@ div.social *:after {
 }
 .clearit {
 	clear: both;
-}
-div.owl-prev {
-	background-color: #000;
 }
