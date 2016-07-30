@@ -26,15 +26,15 @@ nav.fixednav {
 	padding-right: 10px;
 	background-color: #222;
 }
-
-nav.fixednav > h1:hover {
+nav.fixednav h1:hover {
 	color:#FF432E;
 }
-nav.fixednav > h2 > a{
+nav.fixednav > h2 > a {
 	text-decoration: none;
 	color:#FFF;
 }
 nav.fixednav > h2 > a:hover {
+	text-decoration: none;
 	color:#FF432E;
 }
 main {
