@@ -80,20 +80,27 @@ img#oldies {
 	width:670px;
 	height:401px;
 }
+img#womanworking {
+	width:670px;
+	height:401px;
+}
 div.maintextblock {
 	width: 40%;
 	padding-top: 0px;
 	float: right;
 	/*border: 2pt solid #000; */
 	text-align: left;
-	margin-top: 0px;
+	margin-top: -20px;
 	margin-left: 20px;
 	margin-right:20px;
-	font-family: 'Bungee Hairline', bold;
+	font-family: 'Slabo 27px', serif;
 	font-size:20px;
 }
 div.maintextblock p:first-child {
-	margin-top: -5px;
+	/*margin-top: -5px;*/
+}
+div.maintextblock a {
+	text-decoration: none;
 }
 div.social {
 	height:20px;
@@ -116,6 +123,7 @@ div.social *:after {
 	clear: both;
 }
 div.owl-page span{
+	margin-top: 5px;
 	background-color: #000 !important;
 	opacity: 1;
 }
