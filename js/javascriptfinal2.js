@@ -11,8 +11,30 @@ $(document).ready(function() {
 });
 
 // smooth scroll function
-//var smooth = function () {
-//$()
+var main = function () {
+
+  //$("a.backToTop").on("click", function () {
+  	//$("#pageTop")[0].scrollIntoView({
+  		//behavior: "smooth"
+  	//});
+  	//return false;
+  //});
+
+  $("a#work").on("click", function () {
+  	$("#myworksection")[0].scrollIntoView({
+  		behavior: "smooth"
+  	});
+  	return false;
+  });
+
+  $("a#contact").on("click", function () {
+  	$("#contactsection")[0].scrollIntoView({
+  		behavior: "smooth"
+  	});
+  	return false;
+  });
+};
+
 
 
 
