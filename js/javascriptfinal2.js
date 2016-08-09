@@ -14,7 +14,7 @@ $(document).ready(function() {
 var main = function () {
 
   $("a.backToTop").on("click", function () {
-  	$(".fixednav")[0].scrollIntoView({
+  	$("#pagetop")[0].scrollIntoView({
   		behavior: "smooth"
   	});
   	return false;
