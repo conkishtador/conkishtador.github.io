@@ -13,12 +13,12 @@ $(document).ready(function() {
 // smooth scroll function
 var main = function () {
 
-  //$("a.backToTop").on("click", function () {
-  	//$("#pageTop")[0].scrollIntoView({
-  		//behavior: "smooth"
-  	//});
-  	//return false;
-  //});
+  $("a.backToTop").on("click", function () {
+  	$(".fixednav")[0].scrollIntoView({
+  		behavior: "smooth"
+  	});
+  	return false;
+  });
 
   $("a#work").on("click", function () {
   	$("#myworksection")[0].scrollIntoView({
