@@ -19,7 +19,6 @@ var main = function () {
   	//});
   	//return false;
   //});
-
   $("a#work").on("click", function () {
   	$("#myworksection")[0].scrollIntoView({
   		behavior: "smooth"
